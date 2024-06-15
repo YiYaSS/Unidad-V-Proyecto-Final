@@ -1,0 +1,16 @@
+.img-responsive {
+    width: 200px;
+    height: 85px;
+    align-items: center;
+}
+
+body{
+    background-color: #fff;
+    background: linear-gradient(to right, #e2e2e2, #edbda7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+

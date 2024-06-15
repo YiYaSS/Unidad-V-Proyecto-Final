@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="register.js" defer></script>
+    <title>Log | Tasty</title>
+</head>
+
+<body>
+    <img class="img-responsive" src="img/logo1.png" ><img/>
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Registrate</h1>
+                <div class="social-icons">
+                    <a href="https://support.google.com/answer/2451065?hl=en" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="https://m.facebook.com/" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+                <span>or use your email for registeration</span>
+                <input type="text" placeholder="Name" name="name" id="name" required>
+                <input type="email" placeholder="Email" name="email" id="email" required>
+                <input type="password" placeholder="Password" name="password" id="password" required>
+                <button href="index.html" name="submit" id="submit" type="submit" class="registerbtn">Crear cuenta</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Iniciar Sesión</h1>
+                <div class="social-icons">
+                    <a href="https://support.google.com/answer/2451065?hl=en" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="https://m.facebook.com/" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+                <span>or use your email password</span>
+                <input type="email" placeholder="Email" id="email" required>
+                <input type="password" placeholder="Password" id="password" required>
+                <a href="#">Forget Your Password?</a>
+                <button >Iniciar Sesión</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Welcome Back!</h1>
+                    <p>Enter your personal details to use all of site features</p>
+                    <button class="hidden" id="login2">Inicia Sesión</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Hello, Friend!</h1>
+                    <p>Register with your personal details to use all of site features</p>
+                    <button class="hidden" id="register2">Registrate</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
